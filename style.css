@@ -1,0 +1,88 @@
+.box {
+    width: 200px;
+    padding: 50px;
+    border: 50px solid;
+    margin-bottom: 20px;
+}
+
+.container :first-child {
+    border-color: red;
+}
+
+.container :nth-child(2) {
+    border-color: green;
+}
+
+.container :nth-child(3) {
+    border-color: blue;
+}
+
+.red {
+    width: 200px;
+    padding: 50px;
+    border: 50px solid red;
+    margin-bottom: 20px;
+}
+
+.green {
+    width: 200px;
+    padding: 50px;
+    border: 50px solid green;
+    margin-bottom: 20px;
+}
+
+.blue {
+    width: 200px;
+    padding: 50px;
+    border: 50px solid blue;
+    margin-bottom: 20px;
+}
+
+.box2 {
+    width: 200px;
+    padding: 50px;
+    border: 50px solid;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #9b59b6;
+}
+
+p {
+    font-style: italic;
+    font-family: "Verdana";
+    font-size: 16px;
+}
+
+p::first-letter {
+    font-size: 200%;
+    color: #2980b9;
+}
+
+h1::before {
+    content: "Read this: ";
+}
+
+.sub-header {
+    color: #2980b9;
+}
+
+.challenge2 {
+    margin-left: 10%;
+}
+
+.challenge2>h1:first-child {
+    text-align: center;
+}
+
+/* * {
+    background-color: #fff;
+    background-image: linear-gradient(90deg,
+            transparent 79px,
+            #abced4 79px,
+            #abced4 81px,
+            transparent 81px),
+        linear-gradient(#eee 0.1em, transparent 0.1em);
+    background-size: 100% 1.2em;
+} */
